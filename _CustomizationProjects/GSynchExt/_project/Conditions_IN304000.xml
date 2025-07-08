@@ -1,0 +1,5 @@
+﻿<Conditions screen="IN304000">
+    <AutomationScreenCondition ConditionID="f83310fd-1961-4c2b-ba60-91c3e87d049a" ScreenID="IN304000" ConditionName="NOT(IsReleased)" Order="1" AppendSystemCondition="False" ParentCondition="IsReleased" JoinMethod="AND" InvertCondition="False">
+        <FilterRow LineNbr="1" CloseBrackets="0" OpenBrackets="0" FieldName="Status" Condition="2" Operator="0" Value2="" Value="R" IsActive="True" IsFromScheme="True" />
+    </AutomationScreenCondition>
+</Conditions>

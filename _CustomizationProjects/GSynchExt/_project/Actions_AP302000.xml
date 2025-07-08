@@ -1,0 +1,130 @@
+﻿<Actions ScreenID="AP302000">
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="initializeState" ActionType="G" After="Last" PlacementInCategory="0" BatchMode="False" WindowMode="S" HideCondition="True" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="releaseFromHold" ActionType="G" After="initializeState" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing" WindowMode="S" DisablePersist="True" ExposedToMobile="False">
+        <StateActionFields>
+            <StateActionField IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" FieldName="HOLD" ActionName="releaseFromHold" IsFromScheme="True" Value="False" StateActionFieldLineNbr="0" />
+        </StateActionFields>
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="putOnHold" ActionType="G" After="releaseFromHold" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing" WindowMode="S" DisablePersist="True" ExposedToMobile="False">
+        <StateActionFields>
+            <StateActionField IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" FieldName="HOLD" ActionName="putOnHold" IsFromScheme="True" Value="True" StateActionFieldLineNbr="0" />
+        </StateActionFields>
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="printCheck" ActionType="G" After="putOnHold" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing" WindowMode="S" HideCondition="36bc7d4f-62e4-a6df-e404-f4be73fbce06" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="release" ActionType="G" After="printCheck" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing" WindowMode="S" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="voidCheck" ActionType="G" After="release" PlacementInCategory="0" BatchMode="False" MenuFolderType="Corrections" WindowMode="S" HideCondition="2831a67b-8ff1-6c8d-596b-e4c132e8a178" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="validateAddresses" ActionType="G" After="voidCheck" PlacementInCategory="0" BatchMode="False" MenuFolderType="CustomOther" WindowMode="S" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="reverseApplication" ActionType="G" After="validateAddresses" PlacementInCategory="0" BatchMode="False" WindowMode="S" DisablePersist="True" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="vendorDocuments" ActionType="G" After="reverseApplication" PlacementInCategory="0" BatchMode="False" MenuFolderType="Inquiry" WindowMode="S" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="printAPEdit" ActionType="G" After="vendorDocuments" PlacementInCategory="0" BatchMode="False" MenuFolderType="Report" WindowMode="S" HideCondition="ce451daa-a817-271b-f899-d0d4299d2cbf" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="printAPRegister" ActionType="G" After="printAPEdit" PlacementInCategory="0" BatchMode="False" MenuFolderType="Report" WindowMode="S" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="printAPPayment" ActionType="G" After="printAPRegister" PlacementInCategory="0" BatchMode="False" MenuFolderType="Report" WindowMode="S" HideCondition="ce451daa-a817-271b-f899-d0d4299d2cbf" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="approve" ActionType="G" After="releaseFromHold" PlacementInCategory="0" BatchMode="False" MenuFolderType="Approval" WindowMode="S" HideCondition="c7766c04-d5df-a19b-ae27-4a1d2e1c23f8" ExposedToMobile="False">
+        <StateActionFields>
+            <StateActionField IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" FieldName="APPROVED" ActionName="approve" IsFromScheme="True" Value="True" StateActionFieldLineNbr="0" />
+        </StateActionFields>
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="reject" ActionType="G" After="approve" PlacementInCategory="0" AfterInMenu="approve" BatchMode="False" MenuFolderType="Approval" WindowMode="S" HideCondition="c7766c04-d5df-a19b-ae27-4a1d2e1c23f8" ExposedToMobile="False">
+        <StateActionFields>
+            <StateActionField IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" FieldName="REJECTED" ActionName="reject" IsFromScheme="True" Value="True" StateActionFieldLineNbr="0" />
+        </StateActionFields>
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" ActionName="printPaymentVoucher" ActionType="R" PlacementInCategory="0" DestinationScreenID="AP622501" DisplayName="Print Payment Voucher" DisableCondition="c5f93a14-dd6f-4617-a88f-681560cb6e0a" MenuFolderType="Report" IsTopLevel="True" WindowMode="N" HideCondition="c5f93a14-dd6f-4617-a88f-681560cb6e0a" MapEnableRights="1" ExposedToMobile="False" IsLockedOnToolbar="False">
+        <Param IsActive="True" Value="[BranchID]" ActionName="printPaymentVoucher" Name="OrgBAccountID" FromSchema="False" />
+        <Param IsActive="True" Value="[DocType]" ActionName="printPaymentVoucher" Name="DocType" FromSchema="False" />
+        <Param IsActive="True" Value="[RefNbr]" ActionName="printPaymentVoucher" Name="RefNbr" FromSchema="False" />
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="ReassignApproval" ActionType="G" After="reject" PlacementInCategory="0" BatchMode="False" MenuFolderType="Approval" WindowMode="S" HideCondition="c7766c04-d5df-a19b-ae27-4a1d2e1c23f8" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Actions" CategoryName="Action" Placement="0" LineNbr="0">
+        <OriginalState IsActive="True" DisplayName="Actions" CategoryName="Action" Placement="0" />
+    </Category>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Processing" CategoryName="Processing" Placement="0" After="Action" LineNbr="1">
+        <OriginalState IsActive="True" DisplayName="Processing" CategoryName="Processing" Placement="0" After="Action" />
+    </Category>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Corrections" CategoryName="Corrections" Placement="0" After="Processing" LineNbr="2">
+        <OriginalState IsActive="True" DisplayName="Corrections" CategoryName="Corrections" Placement="0" After="Processing" />
+    </Category>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Approval" CategoryName="Approval" Placement="0" After="Corrections" LineNbr="3">
+        <OriginalState IsActive="True" DisplayName="Approval" CategoryName="Approval" Placement="0" After="Corrections" />
+    </Category>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Other" CategoryName="CustomOther" Placement="0" After="Approval" LineNbr="4">
+        <OriginalState IsActive="True" DisplayName="Other" CategoryName="CustomOther" Placement="0" After="Approval" />
+    </Category>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Inquiries" CategoryName="Inquiry" Placement="0" After="CustomOther" LineNbr="5">
+        <OriginalState IsActive="True" DisplayName="Inquiries" CategoryName="Inquiry" Placement="0" After="CustomOther" />
+    </Category>
+    <Category IsActive="True" IsSystem="True" IsCustomized="True" IsCustomizedRecursive="False" DisplayName="Reports" CategoryName="Report" Placement="0" After="Inquiry" LineNbr="6">
+        <OriginalState IsActive="True" DisplayName="Reports" CategoryName="Report" Placement="0" After="Inquiry" />
+    </Category>
+</Actions>

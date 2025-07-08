@@ -1,0 +1,46 @@
+﻿<SiteMapNode>
+    <data-set>
+        <relations format-version="3" relations-version="20240201" main-table="SiteMap">
+            <link from="MUIScreen (NodeID)" to="SiteMap (NodeID)" />
+            <link from="MUIWorkspace (WorkspaceID)" to="MUIScreen (WorkspaceID)" type="FromMaster" linkname="workspaceToScreen" split-location="yes" updateable="True" />
+            <link from="MUISubcategory (SubcategoryID)" to="MUIScreen (SubcategoryID)" type="FromMaster" updateable="True" />
+            <link from="MUITile (ScreenID)" to="SiteMap (ScreenID)" />
+            <link from="MUIWorkspace (WorkspaceID)" to="MUITile (WorkspaceID)" type="FromMaster" linkname="workspaceToTile" split-location="yes" updateable="True" />
+            <link from="MUIArea (AreaID)" to="MUIWorkspace (AreaID)" type="FromMaster" updateable="True" />
+            <link from="MUIPinnedScreen (NodeID, WorkspaceID)" to="MUIScreen (NodeID, WorkspaceID)" type="WeakIfEmpty" isEmpty="Username" />
+            <link from="MUIFavoriteWorkspace (WorkspaceID)" to="MUIWorkspace (WorkspaceID)" type="WeakIfEmpty" isEmpty="Username" />
+        </relations>
+        <layout>
+            <table name="SiteMap">
+                <table name="MUIScreen" uplink="(NodeID) = (NodeID)">
+                    <table name="MUIPinnedScreen" uplink="(NodeID, WorkspaceID) = (NodeID, WorkspaceID)" />
+                </table>
+                <table name="MUITile" uplink="(ScreenID) = (ScreenID)" />
+            </table>
+            <table name="MUIWorkspace">
+                <table name="MUIFavoriteWorkspace" uplink="(WorkspaceID) = (WorkspaceID)" />
+            </table>
+            <table name="MUISubcategory" />
+            <table name="MUIArea" />
+        </layout>
+        <data>
+            <SiteMap>
+                <row Position="21546" Title="Solar Site Survey" Url="~/Pages/PM/PM770034.aspx" ScreenID="PM770034" NodeID="2a79adcd-10eb-4721-b42e-61e41f896a8f" ParentID="00000000-0000-0000-0000-000000000000" SelectedUI="E">
+                    <MUIScreen IsPortal="0" WorkspaceID="6dbfa68e-79e9-420b-9f64-e1036a28998c" Order="80" SubcategoryID="6d40b0b6-18f4-4139-adac-8ec8cb2a17ea" />
+                    <MUITile IsPortal="0" TileID="475a6528-1ded-42c1-9245-adaeef0ba3e2" WorkspaceID="6dbfa68e-79e9-420b-9f64-e1036a28998c" Order="15" Title="New Solar Site Survey" Icon="compliance" />
+                </row>
+            </SiteMap>
+            <MUIWorkspace>
+                <row IsPortal="0" WorkspaceID="6dbfa68e-79e9-420b-9f64-e1036a28998c" Order="32.75" Title="Projects" Icon="project" AreaID="338edf81-5456-4735-8601-b213458e93fe" ScreenID="WSPM0000" IsSystem="0">
+                    <MUIFavoriteWorkspace IsPortal="0" Username="" IsFavorite="1" />
+                </row>
+            </MUIWorkspace>
+            <MUISubcategory>
+                <row IsPortal="0" SubcategoryID="6d40b0b6-18f4-4139-adac-8ec8cb2a17ea" Order="128" Name="Profiles" Icon="" IsSystem="0" />
+            </MUISubcategory>
+            <MUIArea>
+                <row IsPortal="0" AreaID="338edf81-5456-4735-8601-b213458e93fe" Order="10" Name="Financials" />
+            </MUIArea>
+        </data>
+    </data-set>
+</SiteMapNode>

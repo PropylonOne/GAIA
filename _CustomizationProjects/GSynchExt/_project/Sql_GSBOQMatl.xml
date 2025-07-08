@@ -1,0 +1,59 @@
+﻿<Sql TableName="GSBOQMatl" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="GSBOQMatl">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="BOQID" type="Int" />
+  <col name="RevisionID" type="NVarChar(15)" />
+  <col name="GroupID" type="NVarChar(15)" />
+  <col name="InventoryID" type="Int" nullable="true" />
+  <col name="LineNbr" type="Int" />
+  <col name="CostCode" type="Int" nullable="true" />
+  <col name="Completed" type="Bit" nullable="true" />
+  <col name="UnitCost" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQtyPhase" type="Decimal(19,6)" nullable="true" />
+  <col name="EPCEstQtyPhase" type="Decimal(19,6)" nullable="true" />
+  <col name="EPCEstQtyType1" type="Decimal(19,6)" nullable="true" />
+  <col name="EPCEstQtyType2" type="Decimal(19,6)" nullable="true" />
+  <col name="EPCEstQtyType3" type="Decimal(19,6)" nullable="true" />
+  <col name="EPCEstQtyType4" type="Decimal(19,6)" nullable="true" />
+  <col name="EPCEstQtyType5" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQtyType1" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQtyType2" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQtyType3" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQtyType4" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQtyType5" type="Decimal(19,6)" nullable="true" />
+  <col name="GGHEstQtyPhase" type="Decimal(19,6)" nullable="true" />
+  <col name="GGHEstQtyType1" type="Decimal(19,6)" nullable="true" />
+  <col name="GGHEstQtyType2" type="Decimal(19,6)" nullable="true" />
+  <col name="GGHEstQtyType3" type="Decimal(19,6)" nullable="true" />
+  <col name="GGHEstQtyType4" type="Decimal(19,6)" nullable="true" />
+  <col name="GGHEstQtyType5" type="Decimal(19,6)" nullable="true" />
+  <col name="ReqQty10MW" type="Int" nullable="true" />
+  <col name="ReqQty20kW" type="Int" nullable="true" />
+  <col name="ReqQty40kW" type="Int" nullable="true" />
+  <col name="ReqQty2X20kW" type="Int" nullable="true" />
+  <col name="UOM" type="NVarChar(30)" nullable="true" />
+  <col name="GGHRemark" type="NVarChar(30)" nullable="true" />
+  <col name="EPCRemark" type="NVarChar(30)" nullable="true" />
+  <col name="Category" type="NVarChar(30)" nullable="true" />
+  <col name="Description" type="NVarChar(30)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="CuryInfoID" type="BigInt" nullable="true" />
+  <index name="GSBOQMatl_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="PK_GSBOQMatl" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="BOQID" />
+    <col name="RevisionID" />
+    <col name="LineNbr" />
+  </index>
+</table>]]></CDATA>
+</Sql>

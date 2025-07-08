@@ -1,0 +1,60 @@
+﻿<Automation screen="IN304000">
+    <Actions ScreenID="IN304000">
+        <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="initializeState" ActionType="G" After="Last" PlacementInCategory="0" BatchMode="False" WindowMode="S" HideCondition="True" ExposedToMobile="False">
+            <StateActionFields />
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="releaseFromHold" ActionType="G" After="initializeState" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing Category" WindowMode="S" ExposedToMobile="False">
+            <StateActionFields>
+                <StateActionField IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" FieldName="HOLD" ActionName="releaseFromHold" IsFromScheme="True" Value="False" StateActionFieldLineNbr="0" />
+            </StateActionFields>
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="putOnHold" ActionType="G" After="releaseFromHold" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing Category" WindowMode="S" ExposedToMobile="False">
+            <StateActionFields>
+                <StateActionField IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" FieldName="HOLD" ActionName="putOnHold" IsFromScheme="True" Value="True" StateActionFieldLineNbr="0" />
+            </StateActionFields>
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="release" ActionType="G" After="putOnHold" PlacementInCategory="0" BatchMode="False" MenuFolderType="Processing Category" WindowMode="S" ExposedToMobile="False">
+            <StateActionFields />
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="iNEdit" ActionType="G" After="release" PlacementInCategory="0" BatchMode="False" MenuFolderType="Report" WindowMode="S" ExposedToMobile="False">
+            <StateActionFields />
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="iNRegisterDetails" ActionType="G" After="iNEdit" PlacementInCategory="0" BatchMode="False" MenuFolderType="Report" WindowMode="S" ExposedToMobile="False">
+            <StateActionFields />
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Action IsActive="True" ActionName="PrintInventoryTransfer" ActionType="R" PlacementInCategory="0" DestinationScreenID="PO64600B" DisplayName="Print Inventory Transfer" DisableCondition="f83310fd-1961-4c2b-ba60-91c3e87d049a" MenuFolderType="Report" IsTopLevel="True" WindowMode="W" MapEnableRights="1" ExposedToMobile="False" IsLockedOnToolbar="True">
+            <Param IsActive="True" Value="[RefNbr]" ActionName="PrintInventoryTransfer" Name="RefNbr" FromSchema="False" />
+            <StateActionFields />
+            <StateActionParams />
+            <NextActions />
+            <ActionSequenceFormFieldValues />
+        </Action>
+        <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Actions" CategoryName="Action" Placement="0" LineNbr="0" />
+        <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Inquiries" CategoryName="Inquiry" Placement="0" After="Action" LineNbr="1" />
+        <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Processing" CategoryName="Processing Category" Placement="0" After="Inquiry" LineNbr="2" />
+        <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Reports" CategoryName="Report" Placement="0" After="Processing Category" LineNbr="3" />
+    </Actions>
+    <Conditions screen="IN304000">
+        <AutomationScreenCondition ConditionID="f83310fd-1961-4c2b-ba60-91c3e87d049a" ScreenID="IN304000" ConditionName="NOT(IsReleased)" Order="1" AppendSystemCondition="False" ParentCondition="IsReleased" JoinMethod="AND" InvertCondition="False">
+            <FilterRow LineNbr="1" CloseBrackets="0" OpenBrackets="0" FieldName="Status" Condition="2" Operator="0" Value2="" Value="R" IsActive="True" IsFromScheme="True" />
+        </AutomationScreenCondition>
+    </Conditions>
+</Automation>

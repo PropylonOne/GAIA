@@ -1,0 +1,42 @@
+﻿<Sql TableName="ISGAFARequest" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="ISGAFARequest">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="ReqNbr" type="NVarChar(15)" />
+  <col name="LineCntr" type="Int" nullable="true" />
+  <col name="LineCntrEvent" type="Int" nullable="true" />
+  <col name="ReqDate" type="DateTime" nullable="true" />
+  <col name="ReqBy" type="Int" nullable="true" />
+  <col name="ExtRefNbr" type="NVarChar(40)" nullable="true" />
+  <col name="Description" type="NVarChar(255)" nullable="true" />
+  <col name="Status" type="Char(1)" nullable="true" />
+  <col name="Notifier" type="Int" nullable="true" />
+  <col name="ApprovalReqDate" type="DateTime" nullable="true" />
+  <col name="ApprovedDate" type="DateTime" nullable="true" />
+  <col name="RejectedDate" type="DateTime" nullable="true" />
+  <col name="IssuedDate" type="DateTime" nullable="true" />
+  <col name="ReturnedDate" type="DateTime" nullable="true" />
+  <col name="ApprovalReqBy" type="Int" nullable="true" />
+  <col name="ApprovedBy" type="Int" nullable="true" />
+  <col name="RejectedBy" type="Int" nullable="true" />
+  <col name="IssuedBy" type="Int" nullable="true" />
+  <col name="ReturnedBy" type="Int" nullable="true" />
+  <col name="IssueTo" type="Int" nullable="true" />
+  <col name="Custodian" type="Int" nullable="true" />
+  <col name="Approved" type="Bit" nullable="true" />
+  <col name="Hold" type="Bit" nullable="true" />
+  <col name="WorkgroupID" type="Int" nullable="true" />
+  <col name="OwnerID" type="Int" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <index name="PK__ISGAFARequest" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="ReqNbr" />
+  </index>
+</table>]]></CDATA>
+</Sql>

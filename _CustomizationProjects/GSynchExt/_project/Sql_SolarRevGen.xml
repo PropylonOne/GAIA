@@ -1,0 +1,39 @@
+﻿<Sql TableName="SolarRevGen" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SolarRevGen">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="BranchID" type="Int" />
+  <col name="SolarRevGenID" type="NVarChar(30)" />
+  <col name="Province" type="NVarChar(50)" />
+  <col name="Period" type="NVarChar(10)" />
+  <col name="InvoiceDate" type="DateTime" nullable="true" />
+  <col name="OnHold" type="Bit" nullable="true" />
+  <col name="Active" type="Bit" nullable="true" />
+  <col name="Processed" type="Bit" nullable="true" />
+  <col name="Error" type="Bit" nullable="true" />
+  <col name="Status" type="NVarChar(10)" nullable="true" />
+  <col name="TransDate" type="DateTime" nullable="true" />
+  <col name="CustomerID" type="Int" nullable="true" />
+  <col name="LnCntrl" type="Int" nullable="true" />
+  <col name="SSRefNbr" type="NVarChar(30)" nullable="true" />
+  <col name="MFRefNbr" type="NVarChar(30)" nullable="true" />
+  <col name="SiteBillRefNbr" type="NVarChar(30)" nullable="true" />
+  <col name="RRRefNbr" type="NVarChar(30)" nullable="true" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="DocType" type="Char(3)" nullable="true" />
+  <index name="SolarRevGen_Inv" unique="true">
+    <col name="CompanyID" />
+    <col name="Province" />
+    <col name="Period" />
+  </index>
+  <index name="SolarRevGen_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SolarRevGenID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

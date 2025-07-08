@@ -1,0 +1,4 @@
+﻿<Table TableName="RQRequest">
+    <Column TableName="RQRequest" ColumnName="UsrProjectID" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="RQRequest" ColumnName="UsrMassSubItem" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+</Table>

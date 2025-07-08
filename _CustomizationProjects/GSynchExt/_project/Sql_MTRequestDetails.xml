@@ -1,0 +1,38 @@
+﻿<Sql TableName="MTRequestDetails" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="MTRequestDetails">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="ReqNbr" type="NVarChar(10)" />
+  <col name="LineNbr" type="Int" />
+  <col name="RefNbr" type="NVarChar(30)" nullable="true" />
+  <col name="UoM" type="NVarChar(30)" nullable="true" />
+  <col name="ReqBy" type="Int" nullable="true" />
+  <col name="InventoryID" type="Int" nullable="true" />
+  <col name="AccountGroupID" type="Int" nullable="true" />
+  <col name="RequestedQty" type="Decimal(19,6)" nullable="true" />
+  <col name="RevisedQty" type="Decimal(19,6)" nullable="true" />
+  <col name="ActualQty" type="Decimal(19,6)" nullable="true" />
+  <col name="Description" type="NVarChar(100)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="TaskID" type="Int" nullable="true" />
+  <col name="CostCode" type="Int" nullable="true" />
+  <col name="ProjectID" type="Int" nullable="true" />
+  <col name="IssueQty" type="Decimal(19,6)" nullable="true" />
+  <col name="TransferQty" type="Decimal(19,6)" nullable="true" />
+  <index name="MTRequestDetails_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="PK__MTRequestDetails" clustered="true" primary="true" unique="true">
+    <col name="ReqNbr" />
+    <col name="LineNbr" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

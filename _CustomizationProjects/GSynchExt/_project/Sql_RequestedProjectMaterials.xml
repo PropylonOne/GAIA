@@ -1,0 +1,19 @@
+﻿<Sql TableName="RequestedProjectMaterials" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="RequestedProjectMaterials">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="TaskID" type="Int" />
+  <col name="CostCode" type="Int" />
+  <col name="ProjectID" type="Int" />
+  <col name="InventoryID" type="Int" />
+  <col name="AccountGroupID" type="Int" />
+  <col name="RequestedQty" type="Decimal(19,6)" nullable="true" />
+  <index name="PK__RequestedProjectMaterials" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="TaskID" />
+    <col name="CostCode" />
+    <col name="ProjectID" />
+    <col name="InventoryID" />
+    <col name="AccountGroupID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

@@ -1,0 +1,48 @@
+﻿<Sql TableName="GSBOQ" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="GSBOQ">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="BOQID" type="Int" />
+  <col name="TaskID" type="Int" nullable="true" />
+  <col name="WorkGroupID" type="Int" nullable="true" />
+  <col name="CuryInfoID" type="BigInt" nullable="true" />
+  <col name="OwnerID" type="Int" nullable="true" />
+  <col name="Status" type="NVarChar(30)" nullable="true" />
+  <col name="PhaseID" type="NVarChar(30)" nullable="true" />
+  <col name="ClusterID" type="NVarChar(30)" nullable="true" />
+  <col name="Description" type="NVarChar(100)" nullable="true" />
+  <col name="RevisionID" type="NVarChar(10)" />
+  <col name="Approved" type="Bit" nullable="true" />
+  <col name="Rejected" type="Bit" nullable="true" />
+  <col name="Hold" type="Bit" nullable="true" />
+  <col name="LineCntr" type="Int" nullable="true" />
+  <col name="EPCVendorID" type="Int" nullable="true" />
+  <col name="Creator" type="NVarChar(30)" nullable="true" />
+  <col name="Approver" type="NVarChar(30)" nullable="true" />
+  <col name="CuryID" type="NVarChar(5)" nullable="true" />
+  <col name="PhaseCapacity" type="NVarChar(30)" nullable="true" />
+  <col name="CapacityType1" type="NVarChar(30)" nullable="true" />
+  <col name="CapacityType2" type="NVarChar(30)" nullable="true" />
+  <col name="CapacityType3" type="NVarChar(30)" nullable="true" />
+  <col name="CapacityType4" type="NVarChar(30)" nullable="true" />
+  <col name="CapacityType5" type="NVarChar(30)" nullable="true" />
+  <col name="StartDate" type="DateTime" nullable="true" />
+  <col name="EndDate" type="DateTime" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <index name="GSBOQ_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="PK_GSBOQ" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="BOQID" />
+    <col name="RevisionID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

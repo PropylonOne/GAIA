@@ -1,0 +1,40 @@
+﻿<Sql TableName="UploadBankStatement" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="UploadBankStatement">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="TransactionID" type="Int" identity="true" />
+  <col name="StatementDate" type="DateTime" nullable="true" />
+  <col name="UploadDate" type="DateTime" nullable="true" />
+  <col name="SolarSiteID" type="NVarChar(30)" nullable="true" />
+  <col name="CEBAccount" type="NVarChar(30)" nullable="true" />
+  <col name="Province" type="NVarChar(30)" nullable="true" />
+  <col name="District" type="NVarChar(30)" nullable="true" />
+  <col name="PhaseID" type="NVarChar(3)" nullable="true" />
+  <col name="ClusterID" type="NVarChar(3)" nullable="true" />
+  <col name="TransactionDate" type="DateTime" nullable="true" />
+  <col name="CEBAmount" type="Decimal(18,6)" nullable="true" />
+  <col name="Active" type="Bit" nullable="true" />
+  <col name="Processed" type="Bit" nullable="true" />
+  <col name="Matched" type="Bit" nullable="true" />
+  <col name="RefNbr" type="NVarChar(10)" nullable="true" />
+  <col name="LineNbr" type="Int" nullable="true" />
+  <col name="OpenAmount" type="Decimal(18,6)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="CashAccountCD" type="NVarChar(10)" nullable="true" />
+  <col name="CashAccounntCD" type="NVarChar(10)" nullable="true" />
+  <index name="PK__UploadBa__879A4B8F0E7C105C" clustered="true" primary="true" unique="true">
+    <col name="TransactionID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="UploadBankStatement_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

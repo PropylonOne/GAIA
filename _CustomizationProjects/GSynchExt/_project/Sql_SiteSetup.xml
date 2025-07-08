@@ -1,0 +1,28 @@
+﻿<Sql TableName="SiteSetup" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SiteSetup">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="SiteApprovalMap" type="Bit" nullable="true" />
+  <col name="ItemClassID" type="Int" nullable="true" />
+  <col name="MfRate" type="Decimal(19,6)" nullable="true" />
+  <col name="StampDutyLimit" type="Decimal(19,6)" nullable="true" />
+  <col name="StampDutyAmount" type="Decimal(19,6)" nullable="true" />
+  <col name="AssetClassID" type="Int" nullable="true" />
+  <col name="SubID" type="Int" nullable="true" />
+  <col name="DfltSiteID" type="Int" nullable="true" />
+  <col name="TemplateID" type="Int" nullable="true" />
+  <col name="Department" type="NVarChar(30)" nullable="true" />
+  <col name="SurveyNumberingID" type="NVarChar(30)" nullable="true" />
+  <col name="RevGenNumberigID" type="NVarChar(30)" nullable="true" />
+  <col name="MapConsEnd" type="NVarChar(30)" nullable="true" />
+  <col name="MapCommissioned" type="NVarChar(30)" nullable="true" />
+  <col name="TimeAccntGrp" type="Int" nullable="true" />
+  <col name="MapConnectedToGrid" type="NVarChar(30)" nullable="true" />
+  <col name="MapReleasedToServices" type="NVarChar(30)" nullable="true" />
+  <col name="MapConsStart" type="NVarChar(30)" nullable="true" />
+  <col name="IssueReasonCodePrefix" type="NVarChar(10)" nullable="true" />
+  <col name="ReceiptReasonCodePrefix" type="VarChar(10)" nullable="true" />
+  <index name="PK_SiteSetup" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

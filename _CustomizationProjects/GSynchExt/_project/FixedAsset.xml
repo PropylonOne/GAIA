@@ -1,0 +1,4 @@
+﻿<Table TableName="FixedAsset">
+    <Column TableName="FixedAsset" ColumnName="UsrISGARequestedQty" ColumnType="decimal" AllowNull="True" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="FixedAsset" ColumnName="UsrISGAIssuedQty" ColumnType="decimal" AllowNull="True" DecimalPrecision="6" DecimalLength="19" IsNewColumn="True" IsUnicode="True" />
+</Table>

@@ -1,0 +1,23 @@
+﻿<Sql TableName="SiteType" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SiteType">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="SSiteType" type="NVarChar(30)" />
+  <col name="Description" type="NVarChar(100)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <index name="PK_SiteType" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SSiteType" />
+  </index>
+  <index name="SiteType_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

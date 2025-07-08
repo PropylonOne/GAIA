@@ -1,0 +1,7 @@
+﻿<AutomationScreenCondition ConditionID="c5f93a14-dd6f-4617-a88f-681560cb6e0a" ScreenID="AP302000" ConditionName="IsNotClosed" Order="1" AppendSystemCondition="False" JoinMethod="AND" InvertCondition="False">
+    <FilterRow LineNbr="1" CloseBrackets="0" OpenBrackets="0" FieldName="Status" Condition="2" Operator="1" Value2="" Value="C" IsActive="True" IsFromScheme="True" />
+    <FilterRow LineNbr="2" CloseBrackets="0" OpenBrackets="1" FieldName="DocType" Condition="1" Operator="1" Value2="" Value="ADR" IsActive="True" IsFromScheme="True" />
+    <FilterRow LineNbr="3" CloseBrackets="0" OpenBrackets="0" FieldName="DocType" Condition="1" Operator="1" Value2="" Value="REF" IsActive="True" IsFromScheme="True" />
+    <FilterRow LineNbr="4" CloseBrackets="0" OpenBrackets="0" FieldName="DocType" Condition="1" Operator="1" Value2="" Value="VRF" IsActive="True" IsFromScheme="True" />
+    <FilterRow LineNbr="5" CloseBrackets="1" OpenBrackets="0" FieldName="DocType" Condition="1" Operator="0" Value2="" Value="VCK" IsActive="True" IsFromScheme="True" />
+</AutomationScreenCondition>

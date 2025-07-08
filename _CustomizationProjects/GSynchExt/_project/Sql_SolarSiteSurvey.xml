@@ -1,0 +1,67 @@
+﻿<Sql TableName="SolarSiteSurvey" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SolarSiteSurvey">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="SurveyID" type="NVarChar(30)" />
+  <col name="SolarSiteID" type="Int" nullable="true" />
+  <col name="LineCntr" type="Int" />
+  <col name="SiteType" type="NVarChar(10)" nullable="true" />
+  <col name="SiteStatus" type="NVarChar(30)" nullable="true" />
+  <col name="Description" type="NVarChar(250)" nullable="true" />
+  <col name="CEBAccount" type="NVarChar(30)" nullable="true" />
+  <col name="OwnerID" type="Int" nullable="true" />
+  <col name="WorkGroupID" type="Int" nullable="true" />
+  <col name="SurveyApproved" type="Bit" nullable="true" />
+  <col name="Rejected" type="Bit" nullable="true" />
+  <col name="Hold" type="Bit" nullable="true" />
+  <col name="Province" type="NVarChar(30)" nullable="true" />
+  <col name="District" type="NVarChar(30)" nullable="true" />
+  <col name="PhaseID" type="NVarChar(3)" nullable="true" />
+  <col name="ClusterID" type="NVarChar(3)" nullable="true" />
+  <col name="FieldExecutive" type="Int" nullable="true" />
+  <col name="StartDate" type="DateTime" nullable="true" />
+  <col name="EndDate" type="DateTime" nullable="true" />
+  <col name="ProjPlannedStartDate" type="DateTime" nullable="true" />
+  <col name="DistributionUtility" type="NVarChar(10)" nullable="true" />
+  <col name="CEBOffice" type="NVarChar(30)" nullable="true" />
+  <col name="LECOOffice" type="NVarChar(30)" nullable="true" />
+  <col name="GPSCoordinates" type="NVarChar(60)" nullable="true" />
+  <col name="Longitude" type="Decimal(19,10)" nullable="true" />
+  <col name="Latitude" type="Decimal(19,10)" nullable="true" />
+  <col name="MainContact" type="NVarChar(30)" nullable="true" />
+  <col name="PhoneNo" type="NVarChar(30)" nullable="true" />
+  <col name="SinglePhaseConnections" type="Int" nullable="true" />
+  <col name="ThirtyAConnections" type="Int" nullable="true" />
+  <col name="SixtyAConnections" type="Int" nullable="true" />
+  <col name="ContractDemand" type="NVarChar(10)" nullable="true" />
+  <col name="FeederLength" type="Decimal(19,6)" nullable="true" />
+  <col name="TransformerLocation" type="NVarChar(30)" nullable="true" />
+  <col name="TransformerCapacity" type="Decimal(19,6)" nullable="true" />
+  <col name="TransformerDistanceRange" type="NVarChar(30)" nullable="true" />
+  <col name="TransformerDistance" type="Decimal(19,6)" nullable="true" />
+  <col name="Nearest3PhasePointDist" type="Decimal(19,6)" nullable="true" />
+  <col name="City" type="NVarChar(30)" nullable="true" />
+  <col name="CountryID" type="NVarChar(2)" nullable="true" />
+  <col name="State" type="NVarChar(50)" nullable="true" />
+  <col name="PostalCode" type="NVarChar(20)" nullable="true" />
+  <col name="SiteAddress" type="NVarChar(255)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="Approver" type="Int" nullable="true" />
+  <col name="SiteDessignBy" type="Int" nullable="true" />
+  <col name="ApproveUser" type="NVarChar(255)" nullable="true" />
+  <index name="PK_SolarSiteSurvey" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SurveyID" />
+  </index>
+  <index name="SolarSiteSurvey_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

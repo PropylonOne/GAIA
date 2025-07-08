@@ -1,0 +1,37 @@
+﻿<Sql TableName="SolarSiteSurveyBuildings" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SolarSiteSurveyBuildings">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="LineNbr" type="Int" />
+  <col name="SurveyID" type="NVarChar(30)" />
+  <col name="SiteID" type="Int" />
+  <col name="Building" type="NVarChar(30)" />
+  <col name="Length" type="Decimal(19,6)" nullable="true" />
+  <col name="Height" type="Decimal(19,6)" nullable="true" />
+  <col name="Width" type="Decimal(19,6)" nullable="true" />
+  <col name="Stories" type="Int" nullable="true" />
+  <col name="RoofMaterial" type="NVarChar(30)" nullable="true" />
+  <col name="BuildingConditions" type="NVarChar(30)" nullable="true" />
+  <col name="RoofCondition" type="NVarChar(30)" nullable="true" />
+  <col name="RepairPercentage" type="NVarChar(30)" nullable="true" />
+  <col name="Orientation" type="NVarChar(10)" nullable="true" />
+  <col name="Pitch" type="Int" nullable="true" />
+  <col name="Shading" type="Bit" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <index name="PK_SolarSiteSurveyBuildings" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SurveyID" />
+    <col name="Building" />
+  </index>
+  <index name="SolarSiteSurveyBuildings_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

@@ -1,0 +1,6 @@
+﻿<Table TableName="INTran">
+    <Column TableName="INTran" ColumnName="UsrcreatedByMTR" ColumnType="bool" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="INTran" ColumnName="UsrMTRRef" ColumnType="string" AllowNull="True" MaxLength="30" DecimalPrecision="2" DecimalLength="30" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="INTran" ColumnName="UsrSMRRef" ColumnType="string" AllowNull="True" MaxLength="30" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="INTran" ColumnName="UsrCreatedBySMR" ColumnType="bool" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+</Table>

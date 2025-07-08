@@ -1,0 +1,4 @@
+﻿<Table TableName="POOrder">
+    <Column TableName="POOrder" ColumnName="UsrProjectID" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="POOrder" ColumnName="UsrMassSubItem" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+</Table>

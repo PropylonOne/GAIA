@@ -1,0 +1,3 @@
+﻿<AutomationScreenCondition ConditionID="b94e0f74-6cc1-4477-bfee-dfcbe60277d6" ScreenID="GS301027" ConditionName="EnableReCal" Order="1" AppendSystemCondition="False" JoinMethod="AND" InvertCondition="False">
+    <FilterRow LineNbr="1" CloseBrackets="0" OpenBrackets="0" FieldName="Status" Condition="2" Operator="0" Value2="" Value="OnHold" IsActive="True" IsFromScheme="True" />
+</AutomationScreenCondition>

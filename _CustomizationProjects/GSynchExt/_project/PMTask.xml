@@ -1,0 +1,10 @@
+﻿<Table TableName="PMTask">
+    <Column TableName="PMTask" ColumnName="UsrLeadDays" ColumnType="int" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrOwnerID" ColumnType="int" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrPredecessorTaskID" ColumnType="int" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrNotifier" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrComplianceDocs" ColumnType="string" AllowNull="True" MaxLength="260" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrPredecessorTaskCD" ColumnType="string" AllowNull="True" MaxLength="30" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrIsComplDocReq" ColumnType="bool" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="PMTask" ColumnName="UsrNotifyWorkgroup" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+</Table>

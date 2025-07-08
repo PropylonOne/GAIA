@@ -1,0 +1,83 @@
+﻿<Sql TableName="SolarSite" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SolarSite">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="SolarSiteID" type="Int" identity="true" />
+  <col name="SurveyID" type="Int" nullable="true" />
+  <col name="TemplateID" type="Int" nullable="true" />
+  <col name="SolarSiteCD" type="NVarChar(30)" />
+  <col name="SiteType" type="NVarChar(30)" nullable="true" />
+  <col name="SiteStatus" type="NVarChar(10)" nullable="true" />
+  <col name="UoM" type="NVarChar(10)" nullable="true" />
+  <col name="DfltWareHouse" type="Int" nullable="true" />
+  <col name="SiteCapacity" type="Decimal(19,6)" nullable="true" />
+  <col name="SiteName" type="NVarChar(250)" nullable="true" />
+  <col name="CEBAccount" type="NVarChar(30)" nullable="true" />
+  <col name="ProjectID" type="Int" nullable="true" />
+  <col name="EPCVendorID" type="Int" nullable="true" />
+  <col name="OwnerID" type="Int" nullable="true" />
+  <col name="WorkGroupID" type="Int" nullable="true" />
+  <col name="SurveyApproved" type="Bit" nullable="true" />
+  <col name="Rejected" type="Bit" nullable="true" />
+  <col name="Hold" type="Bit" nullable="true" />
+  <col name="Province" type="NVarChar(30)" nullable="true" />
+  <col name="District" type="NVarChar(30)" nullable="true" />
+  <col name="PhaseID" type="NVarChar(3)" nullable="true" />
+  <col name="ClusterID" type="NVarChar(3)" nullable="true" />
+  <col name="FieldExecutive" type="NVarChar(30)" nullable="true" />
+  <col name="AreaEngineer" type="Int" nullable="true" />
+  <col name="ProjectManager" type="Int" nullable="true" />
+  <col name="Address" type="NVarChar(100)" nullable="true" />
+  <col name="StartDate" type="DateTime" nullable="true" />
+  <col name="EndDate" type="DateTime" nullable="true" />
+  <col name="ProjPlannedStartDate" type="DateTime" nullable="true" />
+  <col name="DistributionUtility" type="NVarChar(10)" nullable="true" />
+  <col name="CEBOffice" type="NVarChar(30)" nullable="true" />
+  <col name="LECOOffice" type="NVarChar(30)" nullable="true" />
+  <col name="GPSCoordinates" type="Decimal(19,6)" nullable="true" />
+  <col name="Longitude" type="Decimal(19,6)" nullable="true" />
+  <col name="Latitude" type="Decimal(19,6)" nullable="true" />
+  <col name="MainContact" type="NVarChar(30)" nullable="true" />
+  <col name="PhoneNo" type="NVarChar(30)" nullable="true" />
+  <col name="SinglePhaseConnections" type="Int" nullable="true" />
+  <col name="ThirtyAConnections" type="Int" nullable="true" />
+  <col name="SixtyAConnections" type="Int" nullable="true" />
+  <col name="ContractDemand" type="NVarChar(10)" nullable="true" />
+  <col name="FeederLength" type="Decimal(19,6)" nullable="true" />
+  <col name="TransformerLocation" type="NVarChar(30)" nullable="true" />
+  <col name="TransformerCapacity" type="Int" nullable="true" />
+  <col name="TransformerDistanceRange" type="NVarChar(30)" nullable="true" />
+  <col name="TransformerDistance" type="Decimal(19,6)" nullable="true" />
+  <col name="Nearest3PhasePointDist" type="Decimal(19,6)" nullable="true" />
+  <col name="SurveyApprovedDate" type="DateTime" nullable="true" />
+  <col name="SurveyRejectedDate" type="DateTime" nullable="true" />
+  <col name="ApprovedRejectedDate" type="DateTime" nullable="true" />
+  <col name="ConstructionStartDate" type="DateTime" nullable="true" />
+  <col name="ConstructionEndDate" type="DateTime" nullable="true" />
+  <col name="CommissionedDate" type="DateTime" nullable="true" />
+  <col name="ConnectedtoGridDate" type="DateTime" nullable="true" />
+  <col name="CancelledDate" type="DateTime" nullable="true" />
+  <col name="LineCntr" type="Int" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="SiteDessignBy" type="Int" nullable="true" />
+  <col name="SiteDesignBy" type="Int" nullable="true" />
+  <col name="InServiceDate" type="DateTime" nullable="true" />
+  <col name="EstSiteValue" type="Decimal(19,6)" nullable="true" />
+  <col name="PVSyst" type="Decimal(19,6)" nullable="true" />
+  <col name="ACCapacity" type="Decimal(19,6)" nullable="true" />
+  <index name="PK_SolarSite" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SolarSiteID" />
+  </index>
+  <index name="SolarSite_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

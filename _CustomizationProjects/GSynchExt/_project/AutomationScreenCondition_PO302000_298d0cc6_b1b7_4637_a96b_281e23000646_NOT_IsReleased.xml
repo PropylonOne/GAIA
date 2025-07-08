@@ -1,0 +1,5 @@
+﻿<AutomationScreenCondition ConditionID="298d0cc6-b1b7-4637-a96b-281e23000646" ScreenID="PO302000" ConditionName="NOT(IsReleased)" Order="1" AppendSystemCondition="False" JoinMethod="AND" InvertCondition="False">
+    <FilterRow LineNbr="1" CloseBrackets="0" OpenBrackets="0" FieldName="Status" Condition="1" Operator="1" Value2="" Value="H" IsActive="True" IsFromScheme="True" />
+    <FilterRow LineNbr="2" CloseBrackets="0" OpenBrackets="0" FieldName="Status" Condition="1" Operator="1" Value2="" Value="B" IsActive="True" IsFromScheme="True" />
+    <FilterRow LineNbr="3" CloseBrackets="0" OpenBrackets="0" FieldName="ReceiptType" Condition="1" Operator="0" Value2="" Value="RN" IsActive="True" IsFromScheme="True" />
+</AutomationScreenCondition>

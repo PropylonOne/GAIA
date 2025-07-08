@@ -1,0 +1,26 @@
+﻿<Sql TableName="BOQGroup" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="BOQGroup">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="GroupID" type="NVarChar(30)" />
+  <col name="LineCntr" type="Int" nullable="true" />
+  <col name="GroupDescription" type="NVarChar(100)" nullable="true" />
+  <col name="CostCodeID" type="Int" nullable="true" />
+  <col name="CostCode" type="NVarChar(30)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <index name="BOQGroup_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="PK_BOQGroup" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="GroupID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

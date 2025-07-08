@@ -1,0 +1,38 @@
+﻿<Sql TableName="SolarRevGenDetails" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SolarRevGenDetails">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="BranchID" type="Int" />
+  <col name="SolarRevGenID" type="NVarChar(30)" />
+  <col name="LineNbr" type="Int" />
+  <col name="SolarSiteID" type="Int" />
+  <col name="CEBAccntID" type="Int" nullable="true" />
+  <col name="UoM" type="NVarChar(6)" nullable="true" />
+  <col name="Active" type="Bit" nullable="true" />
+  <col name="Processed" type="Bit" nullable="true" />
+  <col name="Error" type="Bit" nullable="true" />
+  <col name="Status" type="NVarChar(10)" nullable="true" />
+  <col name="Remark" type="NVarChar(250)" nullable="true" />
+  <col name="InverterQty" type="Decimal(19,6)" nullable="true" />
+  <col name="EstQty" type="Decimal(19,6)" nullable="true" />
+  <col name="ActQty" type="Decimal(19,6)" nullable="true" />
+  <col name="SiteBillAmount" type="Decimal(19,6)" nullable="true" />
+  <col name="StampDutyAmount" type="Decimal(19,6)" nullable="true" />
+  <col name="RoofRentAmount" type="Decimal(19,6)" nullable="true" />
+  <col name="MngFeeAmount" type="Decimal(19,6)" nullable="true" />
+  <col name="Tariff" type="Decimal(19,6)" nullable="true" />
+  <col name="RoofRentPercnt" type="Decimal(19,6)" nullable="true" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="SolarSalesAmount" type="Decimal(19,6)" nullable="true" />
+  <index name="SolarRevGenDetails_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SolarRevGenID" />
+    <col name="LineNbr" />
+  </index>
+</table>]]></CDATA>
+</Sql>

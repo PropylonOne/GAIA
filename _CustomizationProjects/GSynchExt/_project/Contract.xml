@@ -1,0 +1,5 @@
+﻿<Table TableName="Contract">
+    <Column TableName="Contract" ColumnName="UsrEPCVendorID" ColumnType="int" AllowNull="True" MaxLength="30" DecimalPrecision="2" DecimalLength="30" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="Contract" ColumnName="UsrAreaEngineer" ColumnType="int" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="Contract" ColumnName="UsrSubContractor" ColumnType="int" AllowNull="True" MaxLength="25" DecimalPrecision="2" IsNewColumn="True" IsUnicode="True" />
+</Table>

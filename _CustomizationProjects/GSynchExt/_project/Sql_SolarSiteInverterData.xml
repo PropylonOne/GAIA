@@ -1,0 +1,24 @@
+﻿<Sql TableName="SolarSiteInverterData" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SolarSiteInverterData">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="SolarSiteID" type="Int" />
+  <col name="GenDate" type="DateTime" />
+  <col name="PlantID" type="Int" />
+  <col name="UoM" type="NVarChar(6)" />
+  <col name="TransDate" type="DateTime" />
+  <col name="InverterQty" type="Decimal(6,0)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <index name="SolarSiteInverterData_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="SolarSiteID" />
+    <col name="PlantID" />
+    <col name="GenDate" />
+  </index>
+</table>]]></CDATA>
+</Sql>

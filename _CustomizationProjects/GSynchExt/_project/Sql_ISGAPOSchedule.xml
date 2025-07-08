@@ -1,0 +1,37 @@
+﻿<Sql TableName="ISGAPOSchedule" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="ISGAPOSchedule">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="BranchID" type="Int" />
+  <col name="OrderType" type="Char(2)" />
+  <col name="OrderNbr" type="VarChar(15)" />
+  <col name="ScheduleNbr" type="Int" />
+  <col name="POLineNbr" type="Int" />
+  <col name="ShipmentQty" type="Decimal(18,4)" nullable="true" />
+  <col name="FactoryDeliveryDate" type="Date" nullable="true" />
+  <col name="PortArrivalDate" type="Date" nullable="true" />
+  <col name="ClearanceDate" type="Date" nullable="true" />
+  <col name="FactoryDeliveryDone" type="Bit" nullable="true" />
+  <col name="PortArrivalDone" type="Bit" nullable="true" />
+  <col name="ClearanceDone" type="Bit" nullable="true" />
+  <col name="InventoryID" type="Int" nullable="true" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <index name="ISGAPOSchedule_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="ISGAPOSchedule_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="OrderNbr" />
+    <col name="OrderType" />
+    <col name="ScheduleNbr" />
+    <col name="POLineNbr" />
+  </index>
+</table>]]></CDATA>
+</Sql>

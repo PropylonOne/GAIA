@@ -1,0 +1,34 @@
+﻿<Sql TableName="MaterialTransferRequest" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="MaterialTransferRequest">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="ReqNbr" type="NVarChar(10)" />
+  <col name="ReqType" type="NVarChar(30)" nullable="true" />
+  <col name="ReqBy" type="Int" nullable="true" />
+  <col name="FromSiteID" type="Int" nullable="true" />
+  <col name="ToSiteID" type="Int" nullable="true" />
+  <col name="ReqDate" type="DateTime" nullable="true" />
+  <col name="RequiredBy" type="DateTime" nullable="true" />
+  <col name="Description" type="NVarChar(100)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="DateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" />
+  <col name="Status" type="NVarChar(30)" nullable="true" />
+  <col name="Notify" type="Int" nullable="true" />
+  <col name="ProjectID" type="Int" nullable="true" />
+  <col name="LineCntr" type="Int" nullable="true" />
+  <col name="RequiredDate" type="DateTime" nullable="true" />
+  <index name="MaterialTransferRequest_NoteID" unique="true">
+    <col name="NoteID" />
+    <col name="CompanyID" />
+  </index>
+  <index name="PK__Material__32ADBB0BA3F14A21" clustered="true" primary="true" unique="true">
+    <col name="ReqNbr" />
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

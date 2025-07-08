@@ -1,0 +1,8 @@
+﻿<Page path="~/Pages/GS/GS108000.aspx" ControlId="1" pageSource="rVbbcuI4EH1mqvYfVJrKa7jMLTsF1CQmF6pChsEk2bctYSugiix5ZZnAPMy3T0u2IkGAzW7FT3J363T3afnI3aNvaEzmFF0TMS9h0cPRe4xGpNBUGccF42D71fSWonkhVXbH6NNxZo0YnZZani+p0PdM0TLvYa1KitEd4Swlmk7oPyUtdA8/EF6APZJpjXsZt1snrVbrmBT56jgpMBqKBVVMFz1scv3tAjCaMm123AptFqmtGqOj/h/vutBDVd50nVN0x5QuCR8TvfjXws12AIDsXyMpNHSAhoMeTmDdNnVa05iThF5JnlJlnPliEGM0KQWBjmKqlgAEMAh189XX8V8DokksS5VQC5VCT6qKLapYKLBgM9PL1LJ0z1JTabvVOsIGpnpMKzcksxytRbI4X+njy/js+4+Y6jIfESZ0ED1WLCNqbXrrYRcU+PvVshsRzmckeYxklhGRFrZ962nucBnzVk+G7mZAV38Pe5397F0cIM8NCF1RNl9oy0q+whb2AXwvuPSVObKNZUSzGVUBExsko1PO5ZM5s1cspe5UOoqmNMs5HNq+Y6+q7JqsZaknJa/GGhraL6qKNVF6Ip/qEfdrGv0WAG9UuNGCJo9ncrUNYZJEhfYBnaq1C0Z52sOnea7kkvARgeYcvgvtO/ApXenzlOm94C6gvQE+oUs4olIMBx7bRfrKY8ppoqXaC+4CNsFvSjMbJuYhugv16AHf+/B9yJ815ZdKGvWpviv7EpFcQyc9PGKCZWWGbgXTPu+uibyatJONviBBKbNDhFWdH4T2IZ+3waETkjC99hl88P+krd16BW9k9da8fdpsjazekreP2+Cv4+0/5fiyPRtDDsgdxBvSdmbqNreEpWsEKGY/qRVK0HMjWPdMpPIJo3NB4IZI3UgghRPEjrkLAc3tDmXaqWcwEzLblD4H86nS1VAsrVI6XXkhaX6KZNbuGLVsNLpDTbPCLn0+Y0NmiF6kqmiICShoNJ43XSqW7q7yQ1Vl/MiEyT+gwBN/eaE+12aQ2h9cOsC/pkvKi+f3IKH1HOrfb2p0I8nLTAQ4IVLltBc2lFFL8MYJGRaniWZLf9d/bvkz4iEOwofaXxRsLjK4W0H9jYrWqJ3OG8HeSM0eWEJ0fQc4/JPd+PDvUPMT+Cy/YKgnEHjCT8F989WxgdfqRHlzf/Nv4zc=">
+    <PXCheckBox DataField="ApprovalMap" ParentId="phF_form_CstPXCheckBox2" TypeFullName="PX.Web.UI.PXCheckBox">
+        <Prop Key="CommitChanges" Value="True" />
+    </PXCheckBox>
+    <PXGridColumn DataField="IsActive" ParentId="phF_CstPXTab12_Items#0_CstPXGrid13_Levels#0_Columns#0" TypeFullName="PX.Web.UI.PXGridColumn">
+        <Prop Key="CommitChanges" Value="True" />
+    </PXGridColumn>
+</Page>

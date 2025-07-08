@@ -1,0 +1,14 @@
+﻿<Sql TableName="FundTransferRequestSetup" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="FundTransferRequestSetup">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="FTRequestNumberingID" type="NVarChar(10)" nullable="true" />
+  <col name="ApprovalMap" type="Bit" nullable="true" />
+  <col name="MTRequestNumberingID" type="NVarChar(10)" nullable="true" />
+  <col name="SMRequestNumberingID" type="NVarChar(10)" nullable="true" />
+  <col name="FARequestNumberingID" type="NVarChar(10)" nullable="true" />
+  <col name="FARequestapprovalMap" type="Bit" nullable="true" />
+  <index name="PK__FundTran__2D971C4C307E53AD" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

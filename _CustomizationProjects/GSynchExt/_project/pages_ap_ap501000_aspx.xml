@@ -1,0 +1,12 @@
+﻿<Page path="~/pages/ap/ap501000.aspx" pageSource="pVVNc9owED2nM/0PHnVya4F02kvGdGogNMxA4oE06Y0R9garkSVXHwR66G/vro0J+YDS9iavtE/vvV2vwuPPQcznEAy5mntctFn3DQtG3DowtNEXEmO/mg8R2xwK664F3DfyMsiCyDt9tgDlboQBX7SZMx5YcM2lSLmDMfzwYF2b3XJpMd7V6Ro3ij+2TlqtVoPbYtlILAsGKgMjnG0zumtaH2DBlXCU8VU5WqQlaxYcf3r96vWrEFVUBK9WBQTXwjjPZcxd9kfqBBDi7addrRwqCAa9NktwfUI8y1AseQLnWqZgaLPIehMWGK84KpqAWSAMghyFxfI0/tbjjk+0NwmUSClKuhEpEUEZx5s8W+UhVStmpOuqdCw2IudmRQzJnJ5OfI4MiDU6gNoueI6H42+Ny9l3SJxtRHHj4dwYJHByuEmqmluydql8v1vlcLfIL0akJcQcF880nYOYZ/j9odUqlk/kT9yK1P58J1QKy9PghEobSanvsT5CzWsjytAEuEmyupu6vHBCqzar1aK1D27XZne4S7KvBbXdBiv97q2j+k/ET2o67FaGWo4md0JR3tr1gfrhsX+R5Eolsbaiuq4C6WO/YM9iz/QFyBT7cwy3FzPz9hpUqtGyzWJaLaY8SRyVa72xPh7FA7XQIoHpdOKLQgpIO6sNxt7dp8BlQY7CISxA2nK9VZ4yWvozgnwG5lk7VQlHYVdLn6t1/jZCtVFV4sJL2Wb96vcl0NIE6gyJXQjYA1ewdJEUczSsi1dQH1C/4lcGyV1HL9c1LT8jQtsutDZuA19GRnoBjyOXqsdtNtPcpJtB0tzJeotjx3CVZIMeO+g0ekS8WTBGs8GcpcJpQ+JqwgehVMVmwVCou67Oc64wuMC/ui7BgTh16f/y+LNOOSx9b/dh3YUtJF+NcHq32blAEX9BqnZkd8r+RnPcefufVUHz8evQ032hYnyKdLrf/r20u96sLo2Y481R7h79JWMakvTSOiOWlafucCkE/B+89nP6R1CyF2zykB82Hw2XsPl4OlXjq7k1v0IazTSky0eJC0Vz6wafCn3PgjPF8aVM64qPhNp6aOpLwyihqd3hJujBLffSVYEX/74tQi+8l78B">
+    <PXGridLevel DataMember="APDocumentList" ParentId="phL_grid_Levels#0" TypeFullName="PX.Web.UI.PXGridLevel">
+        <Children Key="Columns">
+            <AddItem>
+                <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                    <Prop Key="DataField" Value="CreatedByID_Creator_displayName" />
+                    <Prop Key="Width" Value="70" />
+                </PXGridColumn>
+            </AddItem>
+        </Children>
+    </PXGridLevel>
+</Page>

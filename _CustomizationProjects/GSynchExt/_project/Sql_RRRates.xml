@@ -1,0 +1,21 @@
+﻿<Sql TableName="RRRates" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="RRRates">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="Province" type="NVarChar(10)" />
+  <col name="Period" type="NVarChar(10)" nullable="true" />
+  <col name="ExpDate" type="DateTime" />
+  <col name="RRRate" type="Decimal(19,6)" nullable="true" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="CreatedByID" type="UniqueIdentifier" nullable="true" />
+  <col name="CreatedByScreenID" type="Char(8)" nullable="true" />
+  <col name="CreatedDateTime" type="DateTime" nullable="true" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" nullable="true" />
+  <col name="LastModifiedByScreenID" type="Char(8)" nullable="true" />
+  <col name="LastModifiedDateTime" type="DateTime" nullable="true" />
+  <index name="RRRates_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="ExpDate" />
+    <col name="Province" />
+  </index>
+</table>]]></CDATA>
+</Sql>

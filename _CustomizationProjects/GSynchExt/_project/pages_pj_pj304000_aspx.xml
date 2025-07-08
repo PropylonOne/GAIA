@@ -1,0 +1,256 @@
+﻿<Page path="~/pages/pj/pj304000.aspx" pageSource="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">
+    <PXSmartPanel ID="PanelSelectBudgetLines" ParentId="phG_PanelSelectBudgetLines" TypeFullName="PX.Web.UI.PXSmartPanel">
+        <Children Key="Controls">
+            <AddItem>
+                <PXGrid TypeFullName="PX.Web.UI.PXGrid">
+                    <Prop Key="Virtual:ApplyStylesheetSkin" />
+                    <Prop Key="Virtual:Left" Value="0px" />
+                    <Prop Key="Virtual:Top" Value="0px" />
+                    <Prop Key="ID" Value="gridCostBudgetLines" />
+                    <Prop Key="SyncPosition" Value="true" />
+                    <Prop Key="Height" Value="135px" />
+                    <Prop Key="SkinID" Value="Details" />
+                    <Prop Key="Width" Value="100%" />
+                    <Prop Key="AutoAdjustColumns" Value="true" />
+                    <Prop Key="AutoSize.Enabled" Value="true" />
+                    <Prop Key="ActionBar.PagerVisible" Value="False" />
+                    <Prop Key="CallbackCommands.Refresh.CommitChanges" Value="true" />
+                    <Prop Key="DataSourceID" Value="ds" />
+                    <Prop Key="AdjustPageSize" Value="Auto" />
+                    <Prop Key="AllowSearch" Value="True" />
+                    <Children Key="Levels">
+                        <AddItem>
+                            <PXGridLevel TypeFullName="PX.Web.UI.PXGridLevel">
+                                <Prop Key="DataMember" Value="costBudgetsGS" />
+                                <Prop Key="Mode.AllowAddNew" Value="false" />
+                                <Prop Key="Mode.AllowUpdate" Value="False" />
+                                <Prop Key="Mode.AllowDelete" Value="false" />
+                                <Children Key="Columns">
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="Selected" />
+                                            <Prop Key="Type" Value="CheckBox" />
+                                            <Prop Key="TextAlign" Value="Center" />
+                                            <Prop Key="AllowCheckAll" Value="true" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="ProjectTaskID" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="InventoryID" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="CostCodeID" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="AccountGroupID" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="Description" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                            <Prop Key="DataField" Value="RevisedQty" />
+                                        </PXGridColumn>
+                                    </AddItem>
+                                </Children>
+                            </PXGridLevel>
+                        </AddItem>
+                    </Children>
+                </PXGrid>
+            </AddItem>
+            <PXPanel ID="PXPanel5" OriginalIndex="2" />
+            <PXGrid ID="gridCostBudgetLines" OriginalIndex="1" Remove="True" />
+        </Children>
+        <Prop Key="Key" Value="costBudgetsGS" />
+    </PXSmartPanel>
+    <PXGrid ID="gridCostBudgetLines" ParentId="phG_PanelSelectBudgetLines_gridCostBudgetLines" TypeFullName="PX.Web.UI.PXGrid">
+        <Children Key="Levels">
+            <PXGridLevel DataMember="costBudgets" OriginalIndex="0" Remove="True" />
+        </Children>
+    </PXGrid>
+    <PXGridLevel DataMember="costBudgets" ParentId="phG_PanelSelectBudgetLines_gridCostBudgetLines_Levels#0" TypeFullName="PX.Web.UI.PXGridLevel">
+        <Children Key="Columns">
+            <PXGridColumn DataField="Selected" OriginalIndex="0" Remove="True" />
+            <PXGridColumn DataField="ProjectTaskID" OriginalIndex="1" Remove="True" />
+            <PXGridColumn DataField="InventoryID" OriginalIndex="2" Remove="True" />
+            <PXGridColumn DataField="CostCodeID" OriginalIndex="3" Remove="True" />
+            <PXGridColumn DataField="AccountGroupID" OriginalIndex="4" Remove="True" />
+            <PXGridColumn DataField="Description" OriginalIndex="5" Remove="True" />
+            <PXGridColumn DataField="RevisedQty" OriginalIndex="7" Remove="True" />
+        </Children>
+    </PXGridLevel>
+    <PXTabItem Text="Progress Worksheets" ParentId="phG_tab_Items#1" TypeFullName="PX.Web.UI.PXTabItem">
+        <Prop Key="Enabled" Value="False" />
+        <Prop Key="Visible" Value="False" />
+    </PXTabItem>
+    <PXGrid ID="ProgressWorksheetLinesGrid" ParentId="phG_tab_Items#1_ProgressWorksheetLinesGrid" TypeFullName="PX.Web.UI.PXGrid">
+        <Prop Key="Visible" Value="False" />
+    </PXGrid>
+    <PXTab ID="tab" ParentId="phG_tab" TypeFullName="PX.Web.UI.PXTab">
+        <Children Key="Items">
+            <AddItem>
+                <PXTabItem TypeFullName="PX.Web.UI.PXTabItem">
+                    <Prop Key="Text" Value="Progress Worksheets" />
+                    <Prop Key="Visible" Value="True" />
+                    <Children Key="Template">
+                        <AddItem>
+                            <PXGrid TypeFullName="PX.Web.UI.PXGrid">
+                                <Prop Key="Virtual:ApplyStylesheetSkin" />
+                                <Prop Key="ID" Value="ProgressWorksheetLinesGridGS" />
+                                <Prop Key="SyncPosition" Value="True" />
+                                <Prop Key="Height" Value="150px" />
+                                <Prop Key="SkinID" Value="DetailsInTab" />
+                                <Prop Key="Width" Value="100%" />
+                                <Prop Key="RepaintColumns" Value="true" />
+                                <Prop Key="AutoSize.Enabled" Value="True" />
+                                <Prop Key="AutoSize.MinHeight" Value="150" />
+                                <Prop Key="Mode.AllowUpload" Value="True" />
+                                <Prop Key="Mode.InitNewRow" Value="True" />
+                                <Prop Key="DataSourceID" Value="ds" />
+                                <Children Key="Levels">
+                                    <AddItem>
+                                        <PXGridLevel TypeFullName="PX.Web.UI.PXGridLevel">
+                                            <Prop Key="DataMember" Value="ProgressWorksheetLinesGS" />
+                                            <Children Key="Columns">
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="PMProgressWorksheet__HiddenRefNbr" />
+                                                        <Prop Key="Width" Value="140" />
+                                                        <Prop Key="LinkCommand" Value="ViewProgressWorksheetGS" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="PMProgressWorksheet__HiddenStatus" />
+                                                        <Prop Key="Width" Value="70" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="OwnerID" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="WorkgroupID" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="TaskID" />
+                                                        <Prop Key="AutoCallBack" Value="True" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="InventoryID" />
+                                                        <Prop Key="AutoCallBack" Value="True" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="CostCodeID" />
+                                                        <Prop Key="AutoCallBack" Value="True" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="AccountGroupID" />
+                                                        <Prop Key="AutoCallBack" Value="True" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="Description" />
+                                                        <Prop Key="Width" Value="280" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="UOM" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="PreviouslyCompletedQuantity" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="Qty" />
+                                                        <Prop Key="AutoCallBack" Value="True" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="PriorPeriodQuantity" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="CurrentPeriodQuantity" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="TotalCompletedQuantity" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="CompletedPercentTotalQuantity" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                                <AddItem>
+                                                    <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                                                        <Prop Key="DataField" Value="TotalBudgetedQuantity" />
+                                                    </PXGridColumn>
+                                                </AddItem>
+                                            </Children>
+                                        </PXGridLevel>
+                                    </AddItem>
+                                </Children>
+                                <Children Key="ActionBar.CustomItems">
+                                    <AddItem>
+                                        <PXToolBarButton TypeFullName="PX.Web.UI.PXToolBarButton">
+                                            <Prop Key="Text" Value="Load Template" />
+                                            <Prop Key="Tooltip" Value="Load Template" />
+                                            <Prop Key="AutoCallBack.Target" Value="ds" />
+                                            <Prop Key="AutoCallBack.Command" Value="LoadTemplateGS" />
+                                            <Prop Key="AutoCallBack.Behavior.CommitChanges" Value="True" />
+                                        </PXToolBarButton>
+                                    </AddItem>
+                                    <AddItem>
+                                        <PXToolBarButton TypeFullName="PX.Web.UI.PXToolBarButton">
+                                            <Prop Key="Text" Value="Select Budget Lines" />
+                                            <Prop Key="Tooltip" Value="Select Budget Lines" />
+                                            <Prop Key="AutoCallBack.Target" Value="ds" />
+                                            <Prop Key="AutoCallBack.Command" Value="SelectBudgetLinesGS" />
+                                            <Prop Key="AutoCallBack.Behavior.CommitChanges" Value="True" />
+                                        </PXToolBarButton>
+                                    </AddItem>
+                                </Children>
+                            </PXGrid>
+                        </AddItem>
+                    </Children>
+                </PXTabItem>
+            </AddItem>
+            <PXTabItem Text="Change Requests" OriginalIndex="2" />
+        </Children>
+    </PXTab>
+    <PXFormView ID="formSelectBudgetLines" ParentId="phG_PanelSelectBudgetLines_formSelectBudgetLines" TypeFullName="PX.Web.UI.PXFormView">
+        <Prop Key="DataMember" Value="costBudgetfilterGS" />
+    </PXFormView>
+</Page>

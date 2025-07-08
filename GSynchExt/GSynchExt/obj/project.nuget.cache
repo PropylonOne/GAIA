@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tB452yGIz8vNTdPyfGUcGgad/A2cZhskv/YRqUJrBPeLEIzPajpRWagjnFcjtCE63N1lgK2ELH/ybRqk4k+WgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\PropylonOne\\SOLUTIONS\\GAIA\\GSynchExt\\GSynchExt\\GSynchExt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Windows 10\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Windows 10\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Windows 10\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
