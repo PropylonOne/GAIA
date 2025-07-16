@@ -259,5 +259,12 @@ namespace GSynchExt
             public const string Rejected = "Rejected";
             public const string PendingApproval = "Pending Approval";
         }
+
+        //ISGAFAProcessFARequest
+        public const string UserNotLinked = "The current user is not linked to an employee record.";
+
+        //BatchPrefixValidationAttribute
+        public const string PrefixMsg = "Prefix must contain 2 characters.";
+        public const string ReqNbrNotNull = "Reqest Number cannot be null.";
     }
 }
